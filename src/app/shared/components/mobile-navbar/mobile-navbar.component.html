@@ -1,0 +1,39 @@
+<div class="navigation-wrapper">
+    <ul class="navigation-mobile">
+        <li class="nav-item">
+            <a routerLink="" (click)="closeNav()" class="nav-link link-active">Home</a>
+        </li>
+        <li class="nav-item">
+            <a routerLink="about" (click)="closeNav()" class="nav-link text-dark">Who we are</a>
+        </li>
+        <li class="nav-item">
+            <a routerLink="/shop" (click)="closeNav()" class="nav-link text-dark">Coffee Shop</a>
+        </li>
+        <li class="nav-item">
+            <a routerLink="cafe" (click)="closeNav()" class="nav-link text-dark">Cafe</a>
+        </li>
+        <li class="nav-item">
+            <a routerLink="contact" (click)="closeNav()" class="nav-link text-dark">Contact Us</a>
+        </li>
+    </ul>
+
+    <div class="contact-info-mobile">
+        <p>(222)-333-4444</p>
+        <p>koffee@emailexmpl.com</p>
+    </div>
+
+    <ul class="social-media-mobile">
+    <li class="social-media-icon">
+            <fa-icon [icon]="faFacebook"></fa-icon>
+        </li>
+        <li class="social-media-icon">
+            <fa-icon [icon]="faInstagram"></fa-icon>
+        </li>
+        <li class="social-media-icon">
+            <fa-icon [icon]="faTiktok"></fa-icon>
+        </li>
+        <li class="social-media-icon">
+            <fa-icon [icon]="faTwitter"></fa-icon>
+        </li>
+    </ul>        
+</div>

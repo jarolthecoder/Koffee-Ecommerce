@@ -1,0 +1,303 @@
+
+[ 
+    {
+        "name": "Americano",
+        "price": "3.00",
+        "category": {
+            "espresso": true,
+            "tea": false,
+            "icedBlended": false,
+            "frappe": false
+        }
+    },  
+    {
+        "name": "Cappuccino",
+        "price": "3.00",
+        "category": {
+            "espresso": true,
+            "tea": false,
+            "icedBlended": false,
+            "frappe": false
+        }
+    },
+    {
+        "name": "Double Espresso",
+        "price": "3.50",
+        "category": {
+            "espresso": true,
+            "tea": false,
+            "icedBlended": false,
+            "frappe": false
+        }
+    },  
+    {
+        "name": "Latte",
+        "price": "4.20",
+        "category": {
+            "espresso": true,
+            "tea": false,
+            "icedBlended": false,
+            "frappe": false
+        }
+    },
+    {
+        "name": "Macchiato",
+        "price": "4.50",
+        "category": {
+            "espresso": true,
+            "tea": false,
+            "icedBlended": false,
+            "frappe": false
+        }
+    },  
+    {
+        "name": "Mint Chocolate",
+        "price": "5.25",
+        "category": {
+            "espresso": true,
+            "tea": false,
+            "icedBlended": false,
+            "frappe": false
+        }
+    },
+    {
+        "name": "Mocha",
+        "price": "4.50",
+        "category": {
+            "espresso": true,
+            "tea": false,
+            "icedBlended": false,
+            "frappe": false
+        }
+    },  
+    {
+        "name": "White Mocha",
+        "price": "5.00",
+       "category": {
+            "espresso": true,
+            "tea": false,
+            "icedBlended": false,
+            "frappe": false
+        }
+    },
+    {
+        "name": "Earl Grey",
+        "price": "3.00",
+        "category": {
+            "espresso": false,
+            "tea": true,
+            "icedBlended": false,
+            "frappe": false
+        }
+    },  
+    {
+        "name": "English Breakfast",
+        "price": "3.00",
+        "category": {
+            "espresso": false,
+            "tea": true,
+            "icedBlended": false,
+            "frappe": false
+        }
+    },
+    {
+        "name": "Green Tea",
+        "price": "3.50",
+        "category": {
+            "espresso": false,
+            "tea": true,
+            "icedBlended": false,
+            "frappe": false
+        }
+    },  
+    {
+        "name": "Jasmine Tea",
+        "price": "4.20",
+        "category": {
+            "espresso": false,
+            "tea": true,
+            "icedBlended": false,
+            "frappe": false
+        }
+    },
+    {
+        "name": "Milk Tea",
+        "price": "4.50",
+        "category": {
+            "espresso": false,
+            "tea": true,
+            "icedBlended": false,
+            "frappe": false
+        }
+    },  
+    {
+        "name": "Chai Ginger",
+        "price": "5.25",
+        "category": {
+            "espresso": false,
+            "tea": true,
+            "icedBlended": false,
+            "frappe": false
+        }
+    },
+    {
+        "name": "Honey Lemon",
+        "price": "4.50",
+        "category": {
+            "espresso": false,
+            "tea": true,
+            "icedBlended": false,
+            "frappe": false
+        }
+    },  
+    {
+        "name": "Caramel",
+        "price": "4.25",
+        "category": {
+            "espresso": false,
+            "tea": false,
+            "icedBlended": true,
+            "frappe": false
+        }
+    },  
+    {
+        "name": "Coffee Jelly",
+        "price": "4.50",
+        "category": {
+            "espresso": false,
+            "tea": false,
+            "icedBlended": true,
+            "frappe": false
+        }
+    },
+    {
+        "name": "Cookies and Cream",
+        "price": "5.00",
+        "category": {
+            "espresso": false,
+            "tea": false,
+            "icedBlended": true,
+            "frappe": false
+        }
+    },  
+    {
+        "name": "Hazelnut Mocha",
+        "price": "4.50",
+        "category": {
+            "espresso": false,
+            "tea": false,
+            "icedBlended": true,
+            "frappe": false
+        }
+    },
+    {
+        "name": "Matcha Cream",
+        "price": "6.00",
+        "category": {
+            "espresso": false,
+            "tea": false,
+            "icedBlended": true,
+            "frappe": false
+        }
+    },
+    {
+        "name": "Mint Chocolate Chip",
+        "price": "6.00",
+        "category": {
+            "espresso": false,
+            "tea": false,
+            "icedBlended": true,
+            "frappe": false
+        }
+    },  
+    {
+        "name": "Strawberry Cream",
+        "price": "5.50",
+        "category": {
+            "espresso": false,
+            "tea": false,
+            "icedBlended": true,
+            "frappe": false
+        }
+    },
+    {
+        "name": "Vanilla Bean",
+        "price": "4.50",
+        "category": {
+            "espresso": false,
+            "tea": false,
+            "icedBlended": true,
+            "frappe": false
+        }
+    },
+    {
+        "name": "Mocha",
+        "price": "4.25",
+        "category": {
+            "espresso": false,
+            "tea": false,
+            "icedBlended": false,
+            "frappe": true
+        }
+    },  
+    {
+        "name": "Vanilla",
+        "price": "4.50",
+        "category": {
+            "espresso": false,
+            "tea": false,
+            "icedBlended": false,
+            "frappe": true
+        }
+    },
+    {
+        "name": "White Mocha",
+        "price": "5.00",
+        "category": {
+            "espresso": false,
+            "tea": false,
+            "icedBlended": false,
+            "frappe": true
+        }
+    },  
+    {
+        "name": "Caramel Freeze",
+        "price": "4.50",
+        "category": {
+            "espresso": false,
+            "tea": false,
+            "icedBlended": false,
+            "frappe": true
+        }
+    },
+    {
+        "name": "Banoffee Cream",
+        "price": "6.00",
+        "category": {
+            "espresso": false,
+            "tea": false,
+            "icedBlended": false,
+            "frappe": true
+        }
+    },
+    {
+        "name": "Toffee Nut",
+        "price": "6.00",
+        "category": {
+            "espresso": false,
+            "tea": false,
+            "icedBlended": false,
+            "frappe": true
+        }
+    },  
+    {
+        "name": "Dark Chocolate",
+        "price": "5.50",
+        "category": {
+            "espresso": false,
+            "tea": false,
+            "icedBlended": false,
+            "frappe": true
+        }
+    }
+]

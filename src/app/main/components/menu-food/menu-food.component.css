@@ -1,0 +1,74 @@
+#hero {
+  height: 50vh;
+}
+
+#hero .section-wrapper {
+    justify-content: flex-end;
+    padding-bottom: 5rem;
+}
+
+h1 {
+    margin-top: -1.5rem;
+}
+
+.bg-layer {
+  	background: linear-gradient(to right, rgba(0, 0, 0, 0.974), rgba(0, 0, 0, 0.1));
+}
+
+.item__img-wrap .item__img--t1 {
+	--overflow: 100px;
+	--image: url(../../../../assets/images/fito-garcia-8_yM0XvmX2I-unsplash-min.jpg);
+    background-position: center center;
+}
+
+.menu-wrapper {
+    padding: 0;
+    background: var(--clr-darker);
+}
+.menu-card {
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+
+.section-header {
+    justify-items: stretch;
+    align-items: center;
+}
+
+
+.section-header figure {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section-header figure img {
+    width: 250px;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0rem;
+    padding: 5rem 0;
+}
+
+.grid-block {
+    padding: 3rem;
+    background: url('../../../../assets/images/category_bg.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.menu-item {
+    font-size: var(--fs-medium);
+    padding: 2rem 0 0.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px dotted #b6b6b625;
+}
+
+h3 {
+    font-weight: var(--fw-bolder);
+}

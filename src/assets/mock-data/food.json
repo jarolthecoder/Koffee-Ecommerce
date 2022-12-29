@@ -1,0 +1,262 @@
+[ 
+    {
+        "name": "Plain Bagel",
+        "price": "3.00",
+        "category": {
+            "bagel": true,
+            "pastry": false,
+            "sandwich": false,
+            "other": false
+        }
+    },  
+    {
+        "name": "Asiago Bagel",
+        "price": "3.00",
+        "category": {
+            "bagel": true,
+            "pastry": false,
+            "sandwich": false,
+            "other": false
+        }
+    },
+    {
+        "name": "Cinnamon Crunch Bagel",
+        "price": "3.50",
+        "category": {
+            "bagel": true,
+            "pastry": false,
+            "sandwich": false,
+            "other": false
+        }
+    },  
+    {
+        "name": "Chocolate Chip Bagel",
+        "price": "4.20",
+        "category": {
+            "bagel": true,
+            "pastry": false,
+            "sandwich": false,
+            "other": false
+        }
+    },
+    {
+        "name": "Blueberry Bagel",
+        "price": "4.50",
+        "category": {
+            "bagel": true,
+            "pastry": false,
+            "sandwich": false,
+            "other": false
+        }
+    },  
+    {
+        "name": "Sesame Bagel",
+        "price": "5.25",
+        "category": {
+            "bagel": true,
+            "pastry": false,
+            "sandwich": false,
+            "other": false
+        }
+    },
+    {
+        "name": "Spouted Grain Bagel",
+        "price": "4.50",
+        "category": {
+            "bagel": true,
+            "pastry": false,
+            "sandwich": false,
+            "other": false
+        }
+    },  
+    {
+        "name": "Croissant",
+        "price": "3.00",
+        "category": {
+            "bagel": false,
+            "pastry": true,
+            "sandwich": false,
+            "other": false
+        }
+    },  
+    {
+        "name": "Chocolate Croissant",
+        "price": "3.00",
+        "category": {
+            "bagel": false,
+            "pastry": true,
+            "sandwich": false,
+            "other": false
+        }
+    },
+    {
+        "name": "Almond Croissant",
+        "price": "3.50",
+        "category": {
+            "bagel": false,
+            "pastry": true,
+            "sandwich": false,
+            "other": false
+        }
+    },  
+    {
+        "name": "Vanilla Cinnamon Roll",
+        "price": "4.20",
+        "category": {
+            "bagel": false,
+            "pastry": true,
+            "sandwich": false,
+            "other": false
+        }
+    },
+    {
+        "name": "Bear Claw",
+        "price": "4.50",
+        "category": {
+            "bagel": false,
+            "pastry": true,
+            "sandwich": false,
+            "other": false
+        }
+    },  
+    {
+        "name": "Pecan Braid",
+        "price": "5.25",
+        "category": {
+            "bagel": false,
+            "pastry": true,
+            "sandwich": false,
+            "other": false
+        }
+    },
+    {
+        "name": "Apple Pie",
+        "price": "4.50",
+        "category": {
+            "bagel": false,
+            "pastry": true,
+            "sandwich": false,
+            "other": false
+        }
+    },  
+    {
+        "name": "Classic Grilled Cheese",
+        "price": "4.25",
+        "category": {
+            "bagel": false,
+            "pastry": false,
+            "sandwich": true,
+            "other": false
+        }
+    },  
+    {
+        "name": "Frontega Chicken",
+        "price": "4.50",
+        "category": {
+            "bagel": false,
+            "pastry": false,
+            "sandwich": true,
+            "other": false
+        }
+    },
+    {
+        "name": "Chicken Avocado Melt",
+        "price": "5.00",
+        "category": {
+            "bagel": false,
+            "pastry": false,
+            "sandwich": true,
+            "other": false
+        }
+    },  
+    {
+        "name": "Steak & White Cheddar",
+        "price": "4.50",
+        "category": {
+            "bagel": false,
+            "pastry": false,
+            "sandwich": true,
+            "other": false
+        }
+    },
+    {
+        "name": "Turkey Bravo",
+        "price": "6.00",
+        "category": {
+            "bagel": false,
+            "pastry": false,
+            "sandwich": true,
+            "other": false
+        }
+    },
+    {
+        "name": "Tuna Salad Sandwich",
+        "price": "6.00",
+        "category": {
+            "bagel": false,
+            "pastry": false,
+            "sandwich": true,
+            "other": false
+        }
+    },  
+    {
+        "name": "Roasted Turkey",
+        "price": "5.50",
+        "category": {
+            "bagel": false,
+            "pastry": false,
+            "sandwich": true,
+            "other": false
+        }
+    },
+    {
+        "name": "Mediterranean Veggie",
+        "price": "4.50",
+        "category": {
+            "bagel": false,
+            "pastry": false,
+            "sandwich": true,
+            "other": false
+        }
+    },
+    {
+        "name": "Greek Yogurt & Mixed Berries",
+        "price": "4.25",
+        "category": {
+            "bagel": false,
+            "pastry": false,
+            "sandwich": false,
+            "other": true
+        }
+    },  
+    {
+        "name": "Steel Cut Oatmeal Plain",
+        "price": "4.50",
+        "category": {
+            "bagel": false,
+            "pastry": false,
+            "sandwich": false,
+            "other": true
+        }
+    },
+    {
+        "name": "Steel Cut Oatmeal Strawberry",
+        "price": "5.00",
+        "category": {
+            "bagel": false,
+            "pastry": false,
+            "sandwich": false,
+            "other": true
+        }
+    },  
+    {
+        "name": "Fresh Fruit Cup",
+        "price": "4.50",
+        "category": {
+            "bagel": false,
+            "pastry": false,
+            "sandwich": false,
+            "other": true
+        }
+    }
+]

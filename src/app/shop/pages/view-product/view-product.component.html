@@ -1,0 +1,65 @@
+<div class="section-wrapper">
+    <div *ngIf="!productData; else productHolder">
+        <app-spinner></app-spinner>
+    </div>
+    <ng-template #productHolder>
+         <div class="product-view row animate__animated animate__fadeIn animate__faster">
+            <figure class="col-left">
+                <img [src]="productData.image.regular" alt="">
+            </figure>
+            <div class="product-info col-right">
+                <p class="type">{{ productData.type | uppercase }}</p>
+                <h2 class="text-dark">{{ productData.name }}</h2>
+                <p class="price text-accent">{{ productData.price  | currency: 'EUR'}}</p>
+                <p class="description text-dark">{{ productData.description }}</p>
+
+                <div class="product-list row text-dark">
+                    <div class="select-wrapper">
+                        <h3 class="text-dark">Weight:</h3>
+                        <ul class="select-list">
+                            <li class="list-placeholder">
+                                <p class="dropdown-toggle">
+                                    <span>Choose Option</span>
+                                    <fa-icon class="icon" [icon]="faChevronDown"></fa-icon>
+                                </p>
+                                <ul class="dropdown">
+                                    <li value="200G">200G</li>
+                                    <li value="1kg">1KG</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="select-wrapper">
+                        <h3 class="text-dark">Format:</h3>
+                        <ul class="select-list">
+                            <li class="list-placeholder">
+                                <p class="dropdown-toggle">
+                                    <span>Choose Option</span>
+                                    <fa-icon class="icon" [icon]="faChevronDown"></fa-icon>
+                                </p>
+                                <ul class="dropdown">
+                                    <li value="Beans">Beans</li>
+                                    <li value="Cafeterie Ground">Cafeterie Ground</li>
+                                    <li value="Espresso Ground">Espresso Ground</li>
+                                    <li value="Aeropress Ground">Aeropress Ground</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="counter-wrap">
+                    <h3>Quantity:</h3>
+                    <div class="counter-inner">
+                        <div class="counter">
+                            <button class="counter-btn" (click)="remove()">-</button>
+                            <span class="counter-display">{{ productData.quantity }}</span>
+                            <button class="counter-btn" (click)="add()">+</button>
+                        </div>
+                        <button class="btn cta-btn" (click)="addToCart(productData)">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ng-template>
+</div>

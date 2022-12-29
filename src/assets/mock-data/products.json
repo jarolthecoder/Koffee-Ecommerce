@@ -1,0 +1,148 @@
+{
+  "product": [
+    {   
+        "id": 1, 
+        "name": "House Blend",
+        "description": "Our customers favorite coffee bean pack product, with amazing flavor and high quality of beans. There is no compromise on taste or price.",
+        "type": "Espresso",
+        "price": "6.25",
+        "quantity": 1,
+        "image": { 
+            "regular": "../../../../assets/images/product-image-1-768x768.jpg",
+            "transparent": "../../../../assets/images/product-image-1-768x768-removebg-preview.png" 
+        }      
+    },
+    {   
+        "id": 2, 
+        "name": "Guji Natural",
+        "description": "Our customers favorite coffee bean pack product, with amazing flavor and high quality of beans. There is no compromise on taste or price",
+        "type": "Filter",
+        "price": "8.00",
+        "quantity": 1,
+        "image": {
+            "regular": "../../../../assets/images/product-image-2.jpg",
+            "transparent": "../../../../assets/images/product-image-2-removebg-preview.png"
+        }
+    },
+    {   
+        "id": 3, 
+        "name": "Arabica Blend",
+        "description": "Our customers favorite coffee bean pack product, with amazing flavor and high quality of beans. There is no compromise on taste or price",
+        "type": "Espresso",
+        "price": "7.25",
+        "quantity": 1,
+         "image": { 
+            "regular": "../../../../assets/images/product-image-3-768x768.jpg",
+            "transparent": "../../../../assets/images/product-image-3-768x768-removebg-preview.png" 
+        }  
+    },
+    {   
+        "id": 4, 
+        "name": "Colombia Blend",
+        "description": "Our customers favorite coffee bean pack product, with amazing flavor and high quality of beans. There is no compromise on taste or price",
+        "type": "Espresso",
+        "price": "7.50",
+        "quantity": 1,
+        "image": { 
+            "regular": "../../../../assets/images/product-image-3-768x768.jpg",
+            "transparent": "../../../../assets/images/product-image-3-768x768-removebg-preview.png" 
+        }
+    },
+    {   
+        "id": 5, 
+        "name": "The Truth",
+        "description": "Our customers favorite coffee bean pack product, with amazing flavor and high quality of beans. There is no compromise on taste or price",
+        "type": "Filter",
+        "price": "6.75",
+        "quantity": 1,
+        "image": { 
+            "regular": "../../../../assets/images/product-image-1-768x768.jpg",
+            "transparent": "../../../../assets/images/product-image-1-768x768-removebg-preview.png" 
+        }
+    },
+    {   
+        "id": 6, 
+        "name": "Taramesa Decaf",
+        "description": "Our customers favorite coffee bean pack product, with amazing flavor and high quality of beans. There is no compromise on taste or price",
+        "type": "Espresso",
+        "price": "8.00",
+        "quantity": 1,
+        "image": { 
+            "regular": "../../../../assets/images/product-image-1-768x768.jpg",
+            "transparent": "../../../../assets/images/product-image-1-768x768-removebg-preview.png" 
+        }
+    },
+    {   
+        "id": 7, 
+        "name": "Coffee Pot",
+        "description": "Our customers favorite coffee bean pack product, with amazing flavor and high quality of beans. There is no compromise on taste or price",
+        "type": "Merchandise",
+        "price": "14.00",
+        "quantity": 1,
+        "image": { 
+            "regular": "../../../../assets/images/product-image-4-768x768.jpg",
+            "transparent": "../../../../assets/images/product-image-4-768x768.jpg" 
+        }     
+    },
+    {   
+        "id": 8, 
+        "name": "Monka Pot",
+        "description": "Our customers favorite coffee bean pack product, with amazing flavor and high quality of beans. There is no compromise on taste or price",
+        "type": "Merchandise",
+        "price": "16.50",
+        "quantity": 1,
+        "image": { 
+            "regular": "../../../../assets/images/product-image-9-1-768x768.jpg",
+            "transparent": "../../../../assets/images/product-image-9-1-768x768.jpg" 
+        }   
+    },
+    {   
+        "id": 9, 
+        "name": "Tea Cup",
+        "description": "Our customers favorite coffee bean pack product, with amazing flavor and high quality of beans. There is no compromise on taste or price",
+        "type": "Merchandise",
+        "price": "14.25",
+        "quantity": 1,
+        "image": { 
+            "regular": "../../../../assets/images/product-image-11-1-768x768.jpg",
+            "transparent": "../../../../assets/images/product-image-11-1-768x768.jpg" 
+        }   
+    },
+    {   
+        "id": 10, 
+        "name": "Koffee Paper Cup",
+        "description": "Our customers favorite coffee bean pack product, with amazing flavor and high quality of beans. There is no compromise on taste or price",
+        "type": "Merchandise",
+        "price": "7.50",
+        "quantity": 1,
+        "image": { 
+            "regular": "../../../../assets/images/product-image-7-1-550x550.jpg",
+            "transparent": "../../../../assets/images/product-image-7-1-768x768-removebg-preview.png" 
+        }
+    },
+    {   
+        "id": 11, 
+        "name": "Koffee Paper Set",
+        "description": "Our customers favorite coffee bean pack product, with amazing flavor and high quality of beans. There is no compromise on taste or price",
+        "type": "Merchandise",
+        "price": "10.00",
+        "quantity": 1,
+        "image": { 
+            "regular": "../../../../assets/images/product-image-6-768x768.jpg",
+            "transparent": "../../../../assets/images/product-image-6-768x768-removebg-preview.png" 
+        }
+    },
+    {   
+        "id": 12, 
+        "name": "Koffee Cookies",
+        "description": "Our customers favorite coffee bean pack product, with amazing flavor and high quality of beans. There is no compromise on taste or price",
+        "type": "Merchandise",
+        "price": "6.25",
+        "quantity": 1,
+        "image": { 
+            "regular": "../../../../assets/images/product-image-10-1-768x768.jpg",
+            "transparent": "../../../../assets/images/product-image-10-1-768x768-removebg-preview.png" 
+        }
+    }  
+  ]
+}

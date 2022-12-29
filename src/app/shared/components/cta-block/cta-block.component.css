@@ -1,0 +1,111 @@
+#cta-block {
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+
+#cta-block .section-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  width: 90%;
+  height: 100%;
+  transform: translate(-50%, 0%);
+  z-index: 2;
+}
+
+#cta-block .section-wrapper h2 {
+  font-size: 3rem;
+}
+
+#cta-block .section-wrapper #subscribe-form {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: row;
+  gap: 0.5rem;
+  width: 650px;
+  padding-top: 1rem;
+}
+
+#cta-block .section-wrapper #subscribe-form input {
+  flex-grow: 2;
+  padding: 0.5rem 1rem;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 0;
+  border: 1.5px solid #ebebeb;
+  background: none;
+  color: #FFFFFF;
+}
+
+#cta-block .section-wrapper #subscribe-form input::-moz-placeholder {
+  color: #ebebeb;
+}
+
+#cta-block .section-wrapper #subscribe-form input:-ms-input-placeholder {
+  color: #ebebeb;
+}
+
+#cta-block .section-wrapper #subscribe-form input::placeholder {
+  color: #ebebeb;
+}
+
+#cta-block .section-wrapper #subscribe-form input:focus {
+  outline: none;
+  border-radius: 0;
+  border-color: #f5923c;
+}
+
+#cta-block .section-wrapper #subscribe-form .cta-btn {
+  padding: 1rem 3rem;
+}
+
+#cta-block .bg-layer {
+  background: linear-gradient(rgba(9, 12, 15, 0.737254902), rgba(9, 12, 15, 0.737254902));
+}
+
+#cta-block .item__img {
+  --overflow: 40px;
+  height: calc(100% + 2 * var(--overflow));
+  top: calc(-1 * var(--overflow));
+  width: 100%;
+  position: absolute;
+  background-image: var(--image);
+  background-size: cover;
+  background-position: center center;
+  will-change: transform;
+}
+
+#cta-block .item__img--t2 {
+  --overflow: 60px;
+  --image: url(../../../../assets/images/8-min.png);
+}
+
+#cta-block .item .item__img-wrap {
+  width: 100%;
+  --aspect-ratio: auto;
+}
+
+/* Responsive Style */
+@media screen and (max-width: 900px) {
+	#cta-block .section-wrapper h2 {
+		font-size: 2.25rem;
+	}
+
+	#cta-block .section-wrapper #subscribe-form {
+		width: 100%;
+		flex-direction: column;
+		gap: 1rem;
+	}
+
+	#cta-block .section-wrapper #subscribe-form .cta-btn {
+		padding: 0.5rem 3rem;
+	}
+}

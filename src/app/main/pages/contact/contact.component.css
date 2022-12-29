@@ -1,0 +1,153 @@
+#hero {
+  height: 60vh;
+}
+
+#hero .section-wrapper {
+    justify-content: flex-end;
+    padding-bottom: 5rem;
+}
+
+h1 {
+    margin-top: -1.5rem;
+}
+
+.bg-layer {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.974), rgba(0, 0, 0, 0.1));
+}
+
+.item__img-wrap .item__img--t1 {
+  --overflow: 0px;
+  --image: url(../../../../assets/images/5-min.png);
+}
+
+/* Section 1 */
+#contact__section-1 {
+  padding: 5rem 0;
+}
+
+#contact__section-1 .row {
+  align-items: flex-start;
+  gap: 3rem;
+}
+
+#contact__section-1 .row .col-right {
+  padding-left: 60px;
+}
+
+#contact-form {
+    width: 80%;
+}
+
+.field-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 1rem 0;
+    width: 100%;
+}
+
+label,
+.form-input {
+    width: 100%;
+}
+
+#contact-form input,
+#contact-form textarea {
+  padding: 0.5rem 1rem;
+  font-size: var(--fs-regular);
+  border-radius: 0;
+  border: 1.5px solid var(--clr-dark-grey);
+  color: var(--clr-dark);
+}
+
+#contact-form textarea {
+    resize: none;
+    height: 200px;
+}
+
+#contact-form input::-moz-placeholder {
+    color: var(--clr-dark-grey);
+}
+
+#contact-form input:-ms-input-placeholder {
+    color: var(--clr-dark-grey);
+}
+
+#contact-form input::placeholder,
+#contact-form textarea::placeholder {
+    color: var(--clr-dark-grey);
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-radius: 0;
+  border-color: #f5923c;
+}
+
+#contact-form .btn {
+    width: 200px;
+    background: #0E1317;
+    border: 1.5px solid #0E1317;
+    color: #FFFFFF;
+    transition: background-color ease 0.2s, color ease 0.2s;
+    font-size: 1.3rem;
+}
+
+#contact-form .btn:hover {
+  background: #090C0F;
+}
+
+.location-list {
+    font-weight: 700;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.social-media-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.social-media-list .social-media-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.social-media-list .social-media-icon:hover {
+    transition: color ease 0.2s;
+    color: var(--clr-orange-accent);
+}
+
+.contact-info h3,
+.location-list h3 {
+
+    padding-bottom: 0;
+}
+
+.contact-info {
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+/* Responsive Style */
+@media screen and (max-width: 900px) {
+	#hero {
+		height: 50vh;
+	}
+
+	#contact-form {
+		width: 100%;
+	}
+
+    #contact__section-1 .row .col-right {
+        padding-left: 0;
+    }
+
+	.location-list {
+		padding-top: 1rem;
+	}
+}

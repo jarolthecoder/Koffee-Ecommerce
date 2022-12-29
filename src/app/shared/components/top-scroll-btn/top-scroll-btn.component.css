@@ -1,0 +1,28 @@
+#scroll-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 0.5rem 0.8rem;
+    border: none;
+    background: var(--clr-orange-accent);
+    color: var(--clr-white);
+    opacity: 0;
+    transition: opacity ease 0.2s;
+    z-index: 5;
+}
+
+#scroll-top-btn.btn-active:hover {
+    opacity: 0.9;
+}
+
+#scroll-top-btn.btn-active {
+    opacity: 1;
+}
+
+/* Responsive Style */
+@media screen and (max-width: 900px) {
+    #scroll-top-btn {
+        bottom: 10px;
+        right: 10px;
+    }
+}

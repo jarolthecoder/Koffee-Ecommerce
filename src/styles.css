@@ -1,1 +1,456 @@
-/* You can add global styles to this file, and also import other style files */
+/* Fonts: 'Nunito', 'Oswald; Weight: 300, 400, 500,700 */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Oswald:wght@400;500;600;700&display=swap");
+:root {
+	--clr-dark-blue: #0E1317;
+	--clr-dark: #090C0F;
+	--clr-darker: #040607;
+	--clr-white: #FFFFFF;
+	--clr-grey: #ebebeb;
+	--clr-light-grey: #FFFDF9;
+	--clr-dark-grey: #adadad;
+	--clr-orange-accent: #f5923c;
+	--clr-dark-orange-accent: #e38431;
+
+
+	--ff-body: 'Nunito Sans', sans-serif;
+	--ff-heading: 'Oswald', sans-serif;
+
+	--fs-small: 0.85rem;
+	--fs-regular: 1.15rem;
+	--fs-medium: 1.3rem;
+	--fs-large: 2.3rem;
+	--fs-xlarge: 5.5rem;
+
+	--fw-light: 300;
+	--fw-regular: 400;
+	--fw-bold: 500;
+	--fw-bolder: 700;
+	--animate-delay: 0.5s;
+}
+
+/* Default Style Adjust */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+  	scroll-behavior: smooth;
+}
+
+body {
+	position: relative;
+	font-family: var(--ff-body);
+	letter-spacing: 1.3px;
+    overflow-x: hidden;
+}
+
+main {
+  	overflow-x: hidden;
+}
+
+input,
+button,
+textarea,
+select {
+  	font: inherit;
+}
+
+a {
+  	text-decoration: none;
+}
+
+button,
+.logo {
+  	cursor: pointer;
+}
+
+ul {
+  	list-style: none;
+}
+
+img {
+  	max-width: 100%;
+  	display: block;
+}
+
+/* Font General Style */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.nav-link {
+	font-family: var(--ff-heading);
+	text-transform: uppercase;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  	padding-bottom: 0.5rem;
+}
+
+h1 {
+	font-size: 5.5rem;
+	margin-left: -3px;
+}
+
+h2 {
+  	font-size: 2.3rem;
+}
+
+p {
+	font-size: 1.15rem;
+	line-height: 30px;
+	padding: 0.3rem 0;
+}
+
+/* GENERAL STYLING CLASSES ========================================================== */
+/* Text Color */
+.text-white {
+  	color: var(--clr-white);
+}
+
+.text-light {
+  	color: var(--clr-grey);
+}
+
+.text-dark {
+  	color: var(--clr-dark-blue);
+}
+
+.text-accent {
+  	color: var(--clr-dark-orange-accent);
+}
+
+/* Background Color */
+.bg-light {
+  	background: var(--clr-white);
+}
+
+.bg-dark {
+  background: var(--clr-dark);
+}
+
+.bg-darker {
+  background: var(--clr-darker);
+}
+
+.bg-accent {
+  background: var(--clr-orange-accent);
+}
+
+.nav-dark a,
+.nav-dark .nav-btn-container .btn {
+    color: var(--clr-dark);
+}
+
+.nav-dark .nav-btn-container .cart-btn::before {
+    color: var(--clr-white);
+}
+
+
+/* Sub Headings */
+.lead-wrapper {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: row;
+	gap: 1rem;
+	margin-left: -30px;
+}
+
+.col-left .lead-wrapper {
+  	margin-left: -30px;
+}
+
+.lead {
+	color: var(--clr-orange-accent);
+	font-size: 1.3rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.lead-marker {
+	width: 20px;
+	height: 2px;
+	background: var(--clr-orange-accent);
+}
+
+/* Nav Links */
+.nav-link {
+	padding: 1rem 0 0 0;
+	font-size: 1.3rem;
+}
+
+/* Buttons */
+.btn {
+	padding: 0.7rem 1.7rem;
+	color: var(--clr-white);
+	font-size: 1.3rem;
+	transition: background ease 0.2s, color ease 0.2s;
+	cursor: pointer;
+}
+
+.cta-btn {
+	background: var(--clr-orange-accent);
+	font-weight: var(--fw-bolder);
+	border: none;
+	text-transform: uppercase;
+}
+.cta-btn:hover {
+  	background: var(--clr-orange-accent);
+}
+
+.icon-accent {
+	padding-left: 0.5rem;
+	color: var(--clr-orange-accent);
+}
+
+/* Section Size */
+.section-wrapper {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.row {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+	gap: 1rem;
+}
+
+/* Background Layers */
+.bg-layer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+/* Smooth Scroll Images Style ========================================================== */
+[data-scroll] {
+  will-change: transform;
+}
+
+.item {
+	margin: 0 auto;
+	max-width: 100%;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	will-change: transform;
+}
+
+.item__img-wrap {
+	--aspect-ratio: 1/1.5;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	margin: 0 0;
+	padding-bottom: calc(100% / (var(--aspect-ratio)));
+	max-width: 100%;
+	will-change: transform;
+}
+
+.item__img-wrap .item__img {
+	--overflow: 40px;
+	height: calc(100% + 2 * var(--overflow));
+	top: calc(-1 * var(--overflow));
+	width: 100%;
+	position: absolute;
+	background-image: var(--image);
+	background-size: cover;
+	background-position: 50% 0%;
+	will-change: transform;
+}
+
+.item .item__img-wrap {
+	width: 100%;
+	height: 100%;
+	--aspect-ratio: 100/50;
+}
+
+/* CART */
+#cart-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    opacity: 0;
+    z-index: -1;
+    background:#0406078b;
+    transition: opacity ease 0.3s, 
+                z-index ease 0.5s;
+}
+
+#cart-container.cart-active {
+    opacity: 1;
+    z-index: 6;
+}
+
+.no-scroll {
+    overflow-y: hidden;
+}
+
+/****** GLOBAL SECTIONS STYLE ******/
+/* Hero */
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#hero .section-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, 0%);
+    z-index: 2;
+}
+
+#hero .hero-title {
+  width: 600px;
+}
+
+
+/* Responsive Style */
+@media screen and (max-width: 900px) {
+    /* Fonts */
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 1.7rem;
+    }
+
+    .lead {
+        font-size: 1rem;
+    }
+
+    #cta-block .section-wrapper #subscribe-form input {
+        font-size: 1.15rem;
+        font-weight: 400;
+    }
+
+    #cta-block .section-wrapper h2 {
+        font-size: 2.25rem;
+    }
+
+    #cta-block .section-wrapper h2,
+    #main-footer .row,
+    #sub-footer .section-wrapper {
+        text-align: center;
+    }
+
+    /* Section Size */
+    .section-wrapper {
+        width: 100%;
+        max-width: 90%;
+    }
+
+    /* Grid */
+    .row {
+        grid-template-columns: none;
+    }
+
+    /* Width */ 
+    #hero .hero-title,
+    #products .row .col-left p,
+    #location-block .btn,
+    #cta-block .section-wrapper #subscribe-form {
+        width: 100%;
+    }
+
+    /* Navbar */
+    #mobile-navbar {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    #top-navbar {
+        align-items: center;
+    }
+
+    #top-navbar {
+        border-color: #ffff0000;
+    }
+
+    .nav-btn-container {
+        margin-left: 6.5rem;
+    }
+
+    /* Sections */
+    #hero {
+        height: 87.77vh;
+    }
+
+    #hero .bg-layer {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.517), rgba(0, 0, 0, 0));
+    }
+
+    #hero .item__img-wrap .item__img--t1 {
+    --overflow: 0px;
+    }
+
+    
+    .slides-container {
+        width: auto;
+    }
+
+    .slide {
+        display: flex;
+        justify-content: flex-start;
+        width: 210%;
+        flex: none;
+    }
+
+    #about .row .col-right {
+        padding-left: 0;
+    }
+
+    #location-block .row {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column-reverse;
+    }
+
+    #location-block .btn {
+        margin-top: 1rem;
+    }
+
+     #cta-block .section-wrapper #subscribe-form {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    #cta-block .section-wrapper #subscribe-form .cta-btn {
+        padding: 0.5rem 3rem;
+    }
+}

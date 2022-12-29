@@ -1,0 +1,34 @@
+<div class="slider-wrapper">
+    <button class="slide-arrow" id="slide-arrow-prev" (click)="slideLeft()">
+        <fa-icon [icon]="faChevronLeft"></fa-icon>
+    </button>
+    <button class="slide-arrow" id="slide-arrow-next" (click)="slideRight()">
+        <fa-icon [icon]="faChevronRight"></fa-icon>
+    </button>
+    <div id="slides-container" class="slides-container">
+        <div class="row slide">
+            <div class="product-card" *ngFor="let item of products" routerLink="/shop/product/{{item.id}}">
+                <figure>
+                    <img src="{{ item.image.transparent }}" alt="">
+                </figure>
+                <div class="product-details">
+                    <h3 class="text-white">{{ item.name }}</h3>
+                    <p class="lead price">{{ item.price | currency: 'EUR' }}</p>
+                    <p class="product-type text-light">{{ item.type }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="row slide">
+            <div class="product-card" *ngFor="let item of products" routerLink="/shop/product/{{item.id}}">
+                <figure>
+                    <img src="{{ item.image.transparent }}" alt="">
+                </figure>
+                <div class="product-details">
+                    <h3 class="text-white">{{ item.name }}</h3>
+                    <p class="lead price">{{ item.price | currency: 'EUR' }}</p>
+                    <p class="product-type text-light">{{ item.type }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

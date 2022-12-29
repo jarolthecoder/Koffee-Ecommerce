@@ -1,0 +1,68 @@
+.section-header {
+    text-align: center;
+}
+
+.menu-wrapper  {
+    width: 100%;
+    height: 600px;
+    align-items: stretch;
+    margin-top: 2rem;
+}
+
+.menu-wrapper .col {
+    cursor: pointer;
+    height: 100%;
+}
+
+.menu-wrapper .bg-layer {
+  	background: #00000075;
+}
+
+.item__img-wrap .item__img--t2 {
+	--overflow: 0px;
+	--image: url(../../../../assets/images/nathan-dumlao-dvuHNTJxIsg-unsplash-min.jpg);
+	background-position: center center;
+}
+
+.item__img-wrap .item__img--t3 {
+	--overflow: 0px;
+	--image: url(../../../../assets/images/fito-garcia-8_yM0XvmX2I-unsplash-min.jpg);
+	background-position: center center;
+}
+
+
+.menu-wrapper .col-left,
+.menu-wrapper .col-right {
+    position: relative;
+}
+
+.menu-wrapper .item__img-wrap .item__img {
+    transition: transform ease 0.3s;
+}
+
+
+.menu-wrapper .col:hover  .item__img-wrap .item__img {
+   transform: scale(1.1);
+}
+
+.menu-wrapper .col:hover .bg-layer {
+    background: #f5923cb4;
+}
+
+.menu-wrapper .col-left h2,
+.menu-wrapper .col-right h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:  translate(-50%, -50%);
+    z-index: 2;
+    padding: 1rem;
+    border: 5px solid var(--clr-white);
+    width: 40%;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Responsive Style */
+@media screen and (max-width: 900px) {
+}

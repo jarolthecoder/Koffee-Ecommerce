@@ -1,0 +1,142 @@
+<!-- Hero -->
+<section id="hero" class="content bg-dark">
+    <!-- Background Image -->
+    <div class="item">
+        <div class="item__img-wrap">
+            <div class="item__img item__img--t1"></div>
+        </div>
+    </div>
+    <div class="bg-layer"></div>
+    <div class="section-wrapper">
+        <div class="hero-title">
+            <p class="lead" data-aos="fade-up">
+                <span class="animate__animated animate__fadeIn animate__delay-1s animate__faster">
+                    Tradition.
+                </span>
+                <span class="animate__animated animate__fadeIn animate__delay-2s animate__faster">
+                    Passion.
+                </span>
+                <span class="animate__animated animate__fadeIn animate__delay-3s animate__faster">
+                    Taste.
+                </span>
+            </p>
+            <h1 class="text-white" data-aos="fade-up" data-aos-delay="100">The London Coffee House</h1>
+        </div>
+        <div class="btn-container" data-aos="fade-up" data-aos-delay="150">
+            <button routerLink="/shop" class="btn order-btn">
+                <span>Shop Coffee</span> 
+                <fa-icon class="icon-accent" [icon]="faChevronRight"></fa-icon>
+            </button>
+            <button routerLink="cafe" class="btn menu-btn">
+                <span>View Menu</span> 
+                <fa-icon class="icon-accent" [icon]="faChevronRight"></fa-icon>
+            </button>
+        </div>
+        <div (click)="scrollDown()" class="scroll-down animate__animated animate__fadeIn">
+                <div class="mouse">
+                    <div class="scroller"></div>
+                </div>
+            <p class="scroll-text">Discover</p>
+        </div>
+    </div>
+</section>
+
+<!-- Products -->
+<section id="products" class="bg-dark">
+    <div class="section-wrapper row">
+        <div class="col col-left">
+            <div class="lead-wrapper" data-aos="fade-up">
+                <span class="lead-marker"></span>
+                <p class="lead">Our products</p>
+            </div>
+            <h2 class="text-white" data-aos="fade-up">Organic & fresh coffee</h2>
+            <div class="section-content text-light">
+                <p data-aos="fade-up">
+                    We are an online coffee shop, providing fresh, organic and wet-processed coffees 
+                    with a focus on quality. Every product offering is ethically sourced, sustainable 
+                    and traceable from farm to cup.
+                </p>
+                <p data-aos="fade-up">
+                    We provide you with the highest quality coffee in the market. 
+                    Our products are either organic, or we use fair trade practices and environmentally 
+                    friendly packaging. 
+                </p>
+            </div>
+        </div>
+        <div class="col col-right">
+            <figure>
+                <img src="../../../../assets/images/about_img.png" alt="">
+            </figure>
+        </div>
+    </div>
+</section>
+
+<!-- Products Slider -->
+<section id="products-slider" class="bg-dark">
+    <div class="section-header">
+        <p class="lead">Fan Favourite</p>
+        <h2 class="text-white">Bestsellers</h2>
+        <p class="text-light">Not sure where to dive in? Here are our customers' favourites.</p>
+    </div>
+    <!-- Slider -->
+    <app-slider></app-slider>
+    <button routerLink="/shop" class="btn cta-btn">Shop Coffee</button>
+</section>
+
+<!-- About -->
+<section id="about" class="bg-light">
+    <div class="section-wrapper row">
+        <div class="col col-left">
+            <figure>
+                <img src="../../../../assets/images/coffe-shop.png" alt="">
+            </figure>
+        </div>
+        <div class="col col-right">
+            <div class="lead-wrapper" data-aos="fade-up">
+                <span class="lead-marker"></span>
+                <p class="lead">Since 1997</p>
+            </div>
+            <h2 class="text-dark" data-aos="fade-up">Our History</h2>
+            <div class="section-content text-dark">
+                <p data-aos="fade-up">
+                    From an abandoned storage space to a convivial meeting place in the heart of London, 
+                    we have been serving high quality coffee since 1997.
+                </p>
+                <p data-aos="fade-up">
+                    Our coffee beverages come in a variety of sizes and flavors 
+                    to meet your needs and our coffee beans are always fully roasted. 
+                    We work with small family farms that are committed to sustainable practices and 
+                    quality product.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Menu Block -->
+<section id="menu-block" class="bg-light">
+    <!-- Menu -->
+    <app-menu-block></app-menu-block>
+</section>
+
+<!-- Locations -->
+<section id="location-block" class="bg-light">
+    <div class="section-wrapper row" data-aos="fade-up">
+        <div class="col col-left">
+            <h2 class="text-white">The best coffee in the city</h2>
+            <p class="text-light">
+                At Koffee, we roast and serve fresh coffee made with love and quality.
+                We believe that good coffee can make the world a better place.
+            </p>
+            <button routerLink="/cafe" class="btn">
+                <span>Discover Our Cafe</span>
+                <fa-icon class="icon-accent" [icon]="faChevronRight"></fa-icon>
+            </button>
+        </div>
+        <div class="col col-right">
+            <figure>
+                <img src="../../../../assets/images/grid_gal2-900x601.jpg" alt="">
+            </figure>
+        </div>
+    </div>
+</section>

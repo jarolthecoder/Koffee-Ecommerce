@@ -1,0 +1,64 @@
+<!-- Hero -->
+<section id="hero" class="content bg-dark">
+    <!-- Background Image -->
+    <div class="item">
+        <div class="item__img-wrap">
+            <div class="item__img item__img--t1"></div>
+        </div>
+    </div>
+    <div class="bg-layer"></div>
+    <div class="section-wrapper">
+        <div class="hero-title">
+            <p class="lead" data-aos="fade-up">
+    
+            </p>
+            <h1 class="text-white" data-aos="fade-up" data-aos-delay="100">Drinks</h1>
+            <p class="text-light" data-aos="fade-up" data-aos-delay="150">
+                Explore our coffee menu and other beverages
+            </p>
+        </div>
+    </div>
+</section>
+
+<div class="menu-wrapper">
+    <div class="menu-card section-wrapper">
+        <div class="menu-grid">
+            <div class="grid-block">
+                <h3 class="text-accent">Espresso</h3>
+                <ul class="menu-list">
+                    <li *ngFor="let drink of espresso" class="menu-item">
+                        <span class="item-name text-white">{{ drink.name }}</span>
+                        <span class="item-price text-light">{{ drink.price | currency }}</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="grid-block">
+                <h3 class="text-accent">Ice Blended</h3>
+                <ul class="menu-list">
+                    <li *ngFor="let drink of iced" class="menu-item">
+                        <span class="item-name text-white">{{ drink.name }}</span>
+                        <span class="item-price text-light">{{ drink.price | currency }}</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="grid-block">
+                <h3 class="text-accent">Tea</h3>
+                <ul class="menu-list">
+                    <li *ngFor="let drink of tea" class="menu-item">
+                        <span class="item-name text-white">{{ drink.name }}</span>
+                        <span class="item-price text-light">{{ drink.price | currency }}</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="grid-block">
+                <h3 class="text-accent">Frappe</h3>
+                <ul class="menu-list">
+                    <li *ngFor="let drink of frappe" class="menu-item">
+                        <span class="item-name text-white">{{ drink.name }}</span>
+                        <span class="item-price text-light">{{ drink.price | currency }}</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
