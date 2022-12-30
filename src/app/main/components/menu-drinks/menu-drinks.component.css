@@ -72,3 +72,15 @@ h1 {
 h3 {
     font-weight: var(--fw-bolder);
 }
+
+/* Responsive Style */
+@media screen and (max-width: 900px) {
+    .menu-grid {
+        grid-template-columns: none;
+        padding:  0;
+    }
+
+    .grid-block {
+        padding: 3rem 1.5rem;
+    }
+}

@@ -101,6 +101,10 @@
 
 /* Responsive Style */
 @media screen and (max-width: 900px) {
+    .product-view {
+        padding: 3rem 0;
+        gap: 2rem;
+    }
     .counter-inner {
         flex-direction: column;
         align-items: flex-start;

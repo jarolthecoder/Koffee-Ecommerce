@@ -70,5 +70,18 @@ h1 {
 
 /* Responsive Style */
 @media screen and (max-width: 900px) {
- 
+	#about__section-2 .row  {
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-start;
+		flex-direction: column-reverse;
+	}
+
+	#about__section-2 .row .col-left p {
+		width: 100%;
+	}
+ 	
+	#about__section-1 .row .col-right {
+		padding-left: 0;
+	}
 }

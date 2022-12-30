@@ -133,13 +133,13 @@
 @media screen and (max-width: 900px) {
   	.slides-container {
         width: auto;
-		margin-left: 0.5rem;
+		margin-left: 1rem;
     }
 
     .slide {
         display: flex;
         justify-content: flex-start;
-        width: 101%;
+        width: 102%;
         flex: none;
     }
 

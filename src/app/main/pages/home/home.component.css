@@ -232,5 +232,17 @@
 	#about .row .col-right {
 		padding-left: 0;
 	}
+
+	#location-block .row .col-left {
+		padding: 2rem 1.25rem;
+	}
+
+	#location-block .btn {
+		width: 100%;
+	}
+
+	.section-header {
+		padding: 0 1rem;
+	}
 }
 	
