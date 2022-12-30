@@ -84,6 +84,7 @@ figcaption {
 
 img {
     width: 100px;
+    cursor: pointer;
 }
 
 .price {

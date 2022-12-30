@@ -65,6 +65,7 @@
 
     .product-card {
         width: 100%;
+        padding: 1rem;
     }
 
     .product-add-btn {

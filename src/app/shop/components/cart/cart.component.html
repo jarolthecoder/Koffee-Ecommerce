@@ -12,7 +12,7 @@
         </div>
         <div class="item-card" *ngFor="let item of cartProducts">
             <div class="item-info">
-                <figure class="img-wrapper" routerLink="/shop/product/{{item.id}}">
+                <figure class="img-wrapper" routerLink="/shop/product/{{item.id}}" (click)="this.cart.toggleCart()">
                     <img src="{{ item.image.regular }}" alt="" class="item-img">
                     <figcaption class="item-details">
                         <h3>{{ item.name }}</h3>

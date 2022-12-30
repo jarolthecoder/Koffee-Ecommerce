@@ -1,10 +1,11 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { 
   faFacebookF, 
   faInstagram,
   faTiktok,
   faTwitter
 } from '@fortawesome/free-brands-svg-icons';
+import { SharedService } from '../../services/shared.service';
 
 @Component({
   selector: 'app-mobile-navbar',
@@ -16,11 +17,15 @@ export class MobileNavbarComponent implements OnInit {
   faInstagram = faInstagram;
   faTiktok = faTiktok;
   faTwitter = faTwitter;
-  @Input() closeNav!: () => void;
 
-  constructor() { }
+
+  constructor(private shared: SharedService) { }
 
   ngOnInit(): void {
+  }
+
+  closeNav() {
+    this.shared.toggleNav();
   }
 
 }

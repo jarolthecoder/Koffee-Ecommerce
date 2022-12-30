@@ -233,6 +233,10 @@
 		padding-left: 0;
 	}
 
+	#menu-block {
+		padding: 0;
+	}
+
 	#location-block .row .col-left {
 		padding: 2rem 1.25rem;
 	}

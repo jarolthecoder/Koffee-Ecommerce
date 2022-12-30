@@ -33,12 +33,12 @@
         </div>
         <!-- Mobile Navbar Toggle -->
         <div class="nav-toggle" aria-label="menu" (click)="toggleNav()">
-            <div class="bar"></div>
-            <div class="bar"></div>
+            <div class="bar" [ngClass]="{'nav-dark': headerView}"></div>
+            <div class="bar" [ngClass]="{'nav-dark': headerView}"></div>
         </div>
         <!-- Mobile Navbar -->
         <nav id="mobile-navbar">
-            <app-mobile-navbar [closeNav]="closeNav"></app-mobile-navbar>
+            <app-mobile-navbar></app-mobile-navbar>
         </nav>
     </div>
 </header>

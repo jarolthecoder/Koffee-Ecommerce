@@ -24,7 +24,6 @@ export class AppComponent {
     public cart: CartService) {}
 
   ngOnInit(): void {
-    // localStorage.clear()
     // Constantly check the url
     this.router.events
       .subscribe(event => {
