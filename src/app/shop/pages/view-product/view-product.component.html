@@ -52,9 +52,9 @@
                     <h3>Quantity:</h3>
                     <div class="counter-inner">
                         <div class="counter">
-                            <button class="counter-btn" (click)="remove()">-</button>
+                            <button class="counter-btn" (click)="remove()" type="button">-</button>
                             <span class="counter-display">{{ productData.quantity }}</span>
-                            <button class="counter-btn" (click)="add()">+</button>
+                            <button class="counter-btn" (click)="add()" type="button">+</button>
                         </div>
                         <button class="btn cta-btn" (click)="addToCart(productData)">Add to cart</button>
                     </div>

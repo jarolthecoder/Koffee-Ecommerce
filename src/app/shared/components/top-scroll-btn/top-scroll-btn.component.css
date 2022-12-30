@@ -22,7 +22,7 @@
 /* Responsive Style */
 @media screen and (max-width: 900px) {
     #scroll-top-btn {
-        bottom: 20px;
+        bottom: 30px;
         right: 10px;
     }
 }

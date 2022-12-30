@@ -91,6 +91,7 @@
     border: none;
     background: none;
     font-size: 2rem;
+    color: var(--clr-dark);
 }
 
 .counter-display {
