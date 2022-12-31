@@ -1,8 +1,9 @@
 # Koffee - Angular E-commerce Web App
-Live web application: <a href="https://dazzling-piroshki-f56cb2.netlify.app/">Click Here</a></p>
 
 ## My Experience
-I wanted to challenge myself and try building something more advanced, so I decided to take on the task of building a full ecommerce website. It was a challenging project, but I enjoyed the process of learning and developing my skills as a web developer. The end result was a fully functional ecommerce site that was able to sell products and process transactions online. It was a rewarding experience and I am proud of the end result.
+I wanted to challenge myself and try building something more advanced, so I decided to take on the task of building a full ecommerce website. It was a challenging project, but I enjoyed the process of learning and developing my skills as a web developer. The end result was a fully functional ecommerce site that is able to sell products and process transactions online. It was a rewarding experience and I am proud of the end result.
+Live web application: <a href="https://dazzling-piroshki-f56cb2.netlify.app/">Click Here</a></p>
+
 
 ## About the project
 This project connects to a mock products API that I have built to retrieve a list of products. The user can browse through the various products and add them to their cart. The cart has a functional feature where users can add or delete items from their cart. The cart items are saved in the local storage so that they remain even after the user closes the browser.
