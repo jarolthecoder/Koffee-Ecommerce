@@ -38,12 +38,13 @@
 .close-icon:hover {
     opacity: 0.4;
 }
+
+/* Cart Items List */
 .cart-list {
     padding: 0 2rem;
     height: 100%;
     overflow-y: auto;
 }
-
 
 .item-card {
     padding: 2rem 0;
@@ -87,16 +88,15 @@ img {
     cursor: pointer;
 }
 
-.price {
-    font-weight: var(--fw-bolder);
-}
-
 figcaption p {
     padding: 0rem;
 }
 
-.btn-container,
-.controls {
+.price {
+    font-weight: var(--fw-bolder);
+}
+
+.btn-container {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -155,13 +155,13 @@ figcaption p {
 }
 
 .close-btn .bar:nth-child(1) {
-  transform: rotate(43deg);
-  top: 7px;
+    transform: rotate(43deg);
+    top: 7px;
 }
 .close-btn .bar:nth-child(2) {
-  transform: rotate(-43deg);
-  width: 100%;
-  bottom: 7px;
+    transform: rotate(-43deg);
+    width: 100%;
+    bottom: 7px;
 }
 
 .remove-btn {
@@ -184,16 +184,15 @@ figcaption p {
     z-index: 5;
 }
 
-
 .remove-btn .bar:nth-child(1) {
-  transform: rotate(43deg);
-  top: 0;
+    transform: rotate(43deg);
+    top: 0;
 }
 
 .remove-btn .bar:nth-child(2) {
-  transform: rotate(-43deg);
-  width: 100%;
-  bottom: 8px;
+    transform: rotate(-43deg);
+    width: 100%;
+    bottom: 8px;
 }
 
 @media screen and (max-width: 900px) {

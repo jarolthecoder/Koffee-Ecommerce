@@ -43,7 +43,7 @@
 .product-card .counter-wrapper .remove,
 .product-card .counter-wrapper .add {
 	padding: 0.2rem 0.5rem;
-	background: #ebebeb;
+	background: var(--clr-grey);
 	border: none;
 	font-weight: 700;
 	cursor: pointer;

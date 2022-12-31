@@ -334,7 +334,6 @@ p {
   width: 600px;
 }
 
-
 /* Responsive Style */
 @media screen and (max-width: 900px) {
     /* Fonts */
@@ -350,21 +349,6 @@ p {
         font-size: 1rem;
     }
 
-    #cta-block .section-wrapper #subscribe-form input {
-        font-size: 1.15rem;
-        font-weight: 400;
-    }
-
-    #cta-block .section-wrapper h2 {
-        font-size: 2.25rem;
-    }
-
-    #cta-block .section-wrapper h2,
-    #main-footer .row,
-    #sub-footer .section-wrapper {
-        text-align: center;
-    }
-
     /* Section Size */
     .section-wrapper {
         width: 100%;
@@ -376,81 +360,8 @@ p {
         grid-template-columns: none;
     }
 
-    /* Width */ 
-    #hero .hero-title,
-    #products .row .col-left p,
-    #location-block .btn,
-    #cta-block .section-wrapper #subscribe-form {
-        width: 100%;
-    }
-
-    /* Navbar */
-    #mobile-navbar {
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
-        flex-direction: column;
-        gap: 4rem;
-    }
-
-    #top-navbar {
-        align-items: center;
-    }
-
-    #top-navbar {
-        border-color: #ffff0000;
-    }
-
-    .nav-btn-container {
-        margin-left: 6.5rem;
-    }
-
-    /* Sections */
-    #hero {
-        height: 87.77vh;
-    }
-
-    #hero .bg-layer {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.517), rgba(0, 0, 0, 0));
-    }
-
-    #hero .item__img-wrap .item__img--t1 {
-    --overflow: 0px;
-    }
-
-    
-    .slides-container {
-        width: auto;
-    }
-
-    .slide {
-        display: flex;
-        justify-content: flex-start;
-        width: 210%;
-        flex: none;
-    }
-
-    #about .row .col-right {
-        padding-left: 0;
-    }
-
-    #location-block .row {
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        flex-direction: column-reverse;
-    }
-
-    #location-block .btn {
-        margin-top: 1rem;
-    }
-
-     #cta-block .section-wrapper #subscribe-form {
-        flex-direction: column;
-        gap: 1rem;
-    }
-
-    #cta-block .section-wrapper #subscribe-form .cta-btn {
-        padding: 0.5rem 3rem;
-    }
+	/* Global Hero Title */
+	#hero .hero-title {
+		width: 100%;
+	}
 }

@@ -3,24 +3,24 @@
 }
 
 #hero .btn-container {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: row;
-  gap: 1rem;
-  padding: 1rem 0;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: row;
+	gap: 1rem;
+	padding: 1rem 0;
 }
 
 #hero .btn-container .btn {
-  width: 200px;
-  background: none;
-  border: 1.5px solid var(--clr-grey);
-  font-size: 1.3rem;
+	width: 200px;
+	background: none;
+	border: 1.5px solid var(--clr-grey);
+	font-size: 1.3rem;
 }
 
 #hero .btn-container .btn:hover {
-  background: var(--clr-orange-accent);
-  border-color: var(--clr-orange-accent);
+	background: var(--clr-orange-accent);
+	border-color: var(--clr-orange-accent);
 }
 
 #hero .btn-container .btn:hover .icon-accent {
@@ -33,7 +33,7 @@
 
 
 .item__img-wrap .item__img--t1 {
-  --image: url(../../../../assets/images/started_img_n6-min.jpg);
+  	--image: url(../../../../assets/images/started_img_n6-min.jpg);
 }
 
 .scroll-down {
@@ -209,7 +209,9 @@
         display: none;
     }
 
-    #hero .hero-title {
+    #hero .hero-title,
+	#products .row .col-left p,
+	#location-block .btn  {
         width: 100%;
     }
 
@@ -225,6 +227,7 @@
     --overflow: 0px;
 	}
 
+
 	#about .row {
 		grid-template-columns: none;
 	}
@@ -237,12 +240,19 @@
 		padding: 0;
 	}
 
+	#location-block .row {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column-reverse;
+    }
+
 	#location-block .row .col-left {
 		padding: 2rem 1.25rem;
 	}
 
 	#location-block .btn {
-		width: 100%;
+		margin-top: 1rem;
 	}
 
 	.section-header {

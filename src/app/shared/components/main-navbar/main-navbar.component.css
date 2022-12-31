@@ -1,57 +1,57 @@
 .navigation {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  gap: 0;
-  position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	gap: 0;
+	position: relative;
 }
 
 .navigation .nav-item {
-  position: relative;
-  font-weight: 700;
-  padding: 0 1.5rem;
-  cursor: pointer;
+	position: relative;
+	font-weight: 700;
+	padding: 0 1.5rem;
+	cursor: pointer;
 }
 
 .navigation .nav-item:hover .nav-link {
-  color: #f5923c;
-  transition: color ease 0.2s;
+	color: var(--clr-orange-accent);
+	transition: color ease 0.2s;
 }
 
 .navigation .nav-item:hover .marker {
-  bottom: -2px;
-  opacity: 1;
-  transition: bottom ease 0.2s, opacity ease 0.3s;
+	bottom: -2px;
+	opacity: 1;
+	transition: bottom ease 0.2s, opacity ease 0.3s;
 }
 
 .navigation .nav-item:nth-child(1), 
 .navigation .nav-item:nth-child(2), 
 .navigation .nav-item:nth-child(3), 
 .navigation .nav-item:nth-child(4) {
-  border-right: 1px solid #ebebeb;
+  	border-right: 1px solid var(--clr-grey);
 }
 
 .nav-dark .nav-item:nth-child(1), 
 .nav-dark .nav-item:nth-child(2), 
 .nav-dark .nav-item:nth-child(3), 
 .nav-dark .nav-item:nth-child(4) {
-  border-color: var(--clr-dark);
+  	border-color: var(--clr-dark);
 }
 
 
 .navigation .marker {
-  display: none;
-  position: absolute;
-  bottom: -7px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
-  height: 3px;
-  opacity: 0;
+	display: none;
+	position: absolute;
+	bottom: -7px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+	height: 3px;
+	opacity: 0;
 }
 
 .navigation .marker-active {
-  bottom: -2px;
-  opacity: 1;
+	bottom: -2px;
+	opacity: 1;
 }

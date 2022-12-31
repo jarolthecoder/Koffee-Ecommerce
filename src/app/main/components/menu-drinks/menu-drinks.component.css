@@ -1,5 +1,5 @@
 #hero {
-  height: 50vh;
+  height: 60vh;
 }
 
 #hero .section-wrapper {
@@ -10,6 +10,11 @@
 h1 {
     margin-top: -1.5rem;
 }
+
+h3 {
+    font-weight: var(--fw-bolder);
+}
+
 
 .bg-layer {
   	background: linear-gradient(to right, rgba(0, 0, 0, 0.974), rgba(0, 0, 0, 0.1));
@@ -69,10 +74,6 @@ h1 {
     border-bottom: 2px dotted #b6b6b625;
 }
 
-h3 {
-    font-weight: var(--fw-bolder);
-}
-
 /* Responsive Style */
 @media screen and (max-width: 900px) {
     .menu-grid {
@@ -83,4 +84,8 @@ h3 {
     .grid-block {
         padding: 3rem 1.5rem;
     }
+
+    .bg-layer {
+		background: rgba(0, 0, 0, 0.636);
+	}
 }

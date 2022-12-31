@@ -1,5 +1,5 @@
 #hero {
-  height: 60vh;
+  	height: 60vh;
 }
 
 #hero .section-wrapper {
@@ -12,26 +12,26 @@ h1 {
 }
 
 .bg-layer {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.974), rgba(0, 0, 0, 0.1));
+  	background: linear-gradient(to right, rgba(0, 0, 0, 0.974), rgba(0, 0, 0, 0.1));
 }
 
 .item__img-wrap .item__img--t1 {
-  --overflow: 0px;
-  --image: url(../../../../assets/images/5-min.png);
+	--overflow: 0px;
+	--image: url(../../../../assets/images/5-min.png);
 }
 
 /* Section 1 */
 #contact__section-1 {
-  padding: 5rem 0;
+  	padding: 5rem 0;
 }
 
 #contact__section-1 .row {
-  align-items: flex-start;
-  gap: 3rem;
+	align-items: flex-start;
+	gap: 3rem;
 }
 
 #contact__section-1 .row .col-right {
-  padding-left: 60px;
+  	padding-left: 60px;
 }
 
 #contact-form {
@@ -54,11 +54,11 @@ label,
 
 #contact-form input,
 #contact-form textarea {
-  padding: 0.5rem 1rem;
-  font-size: var(--fs-regular);
-  border-radius: 0;
-  border: 1.5px solid var(--clr-dark-grey);
-  color: var(--clr-dark);
+	padding: 0.5rem 1rem;
+	font-size: var(--fs-regular);
+	border-radius: 0;
+	border: 1.5px solid var(--clr-dark-grey);
+	color: var(--clr-dark);
 }
 
 #contact-form textarea {
@@ -81,9 +81,9 @@ label,
 
 #contact-form input:focus,
 #contact-form textarea:focus {
-  outline: none;
-  border-radius: 0;
-  border-color: #f5923c;
+	outline: none;
+	border-radius: 0;
+	border-color: #f5923c;
 }
 
 #contact-form .btn {
@@ -96,7 +96,7 @@ label,
 }
 
 #contact-form .btn:hover {
-  background: #090C0F;
+  	background: #090C0F;
 }
 
 .location-list {
@@ -106,11 +106,11 @@ label,
 }
 
 .social-media-list {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: row;
-  gap: 1rem;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: row;
+	gap: 1rem;
 }
 
 .social-media-list .social-media-icon {
@@ -124,7 +124,6 @@ label,
 
 .contact-info h3,
 .location-list h3 {
-
     padding-bottom: 0;
 }
 
@@ -135,11 +134,8 @@ label,
 
 /* Responsive Style */
 @media screen and (max-width: 900px) {
-	#hero {
-		height: 50vh;
-	}
-
-	#contact-form {
+	#contact-form,
+    #contact-form .btn {
 		width: 100%;
 	}
 
@@ -149,5 +145,9 @@ label,
 
 	.location-list {
 		padding-top: 1rem;
+	}
+
+    .bg-layer {
+		background: rgba(0, 0, 0, 0.636);
 	}
 }
