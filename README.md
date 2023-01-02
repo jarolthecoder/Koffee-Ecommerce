@@ -1,7 +1,7 @@
 # Koffee - Angular E-commerce Web App
 
 ## About the project
-This project connects to a mock products API that I have built to retrieve a list of products. The user can browse through the various products and add them to their cart. The cart items are saved in the local storage so that they remain even after the user closes the browser.<br> The cart has a functional feature where users can add or delete items from their cart. The checkout process is seamlessly integrated with <a href="https://stripe.com">Stripe</a>.The Stripe integration is built using node.js and express.js, providing a powerful and scalable backend platform for the ecommerce site.<br>
+This project connects to a mock products API that I have built to retrieve a list of products. The user can browse through the various products and add them to their cart. The cart items are saved in the local storage so that they remain even after the user closes the browser.The cart has a functional feature where users can add or delete items from their cart. The checkout process is seamlessly integrated with <a href="https://stripe.com">Stripe</a>. The Stripe integration is built using node.js and express.js, providing a powerful and scalable backend platform for the ecommerce site.
 To improve performance, the project implements lazy loading for certain components. This means that certain components will only be loaded when needed, rather than all at once.
 The header style is also changed based on the current URL route. This allows for a better user experience as the header adjusts to the current page the user is on.
 The products are also sorted by category to make it easier for users to find what they are looking for.<br>
@@ -15,6 +15,9 @@ Live web application: <a href="https://dazzling-piroshki-f56cb2.netlify.app/">Cl
     <li>Lazy loading components: The project uses lazy loading to optimize performance and improve the user experience.</li>
     <li>Header style changed based on URL route: The header style changes depending on the route that the user is on. This helps to improve the overall design and user experience of the site.</li>
     <li>Products sorted by category: The products are sorted by category, making it easier for users to find what they are looking for.</li>
+    <li>Stripe Mock Checkout: User is able to successfully complete payment transaction. ** DO NOT USE PERSONAL INFORMATION ON THE CHECKOUT PORTAL **
+    <p>FOR CHECKOUT TEST USE - Card Number: 4242 4242 4242 4242; Email: test@example.com</p>
+    </li>
 </ul>
 
 ## My Experience
