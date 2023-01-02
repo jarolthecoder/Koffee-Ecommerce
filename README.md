@@ -15,9 +15,15 @@ Live web application: <a href="https://dazzling-piroshki-f56cb2.netlify.app/">Cl
     <li>Lazy loading components: The project uses lazy loading to optimize performance and improve the user experience.</li>
     <li>Header style changed based on URL route: The header style changes depending on the route that the user is on. This helps to improve the overall design and user experience of the site.</li>
     <li>Products sorted by category: The products are sorted by category, making it easier for users to find what they are looking for.</li>
-    <li>Stripe Mock Checkout: User is able to successfully complete payment transaction. ** DO NOT USE PERSONAL INFORMATION ON THE CHECKOUT PORTAL **
-    <p>FOR CHECKOUT TEST USE - Card Number: 4242 4242 4242 4242; Email: test@example.com</p>
-    </li>
+    <li>Stripe Mock Checkout: User is able to successfully complete test payment transaction.</li>
+</ul>
+
+### Disclaimer
+<p>** DO NOT USE PERSONAL INFORMATION ON THE CHECKOUT PORTAL **</p>
+<p>FOR CHECKOUT TEST USE:</p>
+<ul>
+    <li>Email: test@example.com</li>
+    <li>Card Number: 4242 4242 4242 4242<li>
 </ul>
 
 ## My Experience
