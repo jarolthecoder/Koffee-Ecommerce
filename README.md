@@ -26,8 +26,8 @@ Live web application: <a href="https://dazzling-piroshki-f56cb2.netlify.app/">Cl
     <li>Card Number: 4242 4242 4242 4242</li>
 </ul>
 
-<strong>Example:</strong> 
-<img src="./assets/images/test-checkout-stripe.png">
+<p><strong>Example:</strong></p>
+<img src="/assets/images/test-checkout-stripe.png">
 
 ## My Experience
 I wanted to challenge myself and try building something more advanced, so I decided to take on the task of building a full ecommerce website. It was a challenging project, but I enjoyed the process of learning and developing my skills as a web developer. The end result was a fully functional ecommerce site that is able to sell products and process transactions online. It was a rewarding experience and I am proud of the end result.
