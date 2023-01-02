@@ -40,7 +40,7 @@ I wanted to challenge myself and try building something more advanced, so I deci
 </ul>
 
 <p><strong>Example:</strong></p>
-<img src="./src/assets/images/test-checkout-stripe.png" width=200 height=200>
-<img src="./src/assets/images/test-checkout-processing-stripe.png" width=200 height=200>
-<img src="./src/assets/images/test-checkout-success-stripe.png" width=200 height=200>
+<img src="./src/assets/images/test-checkout-stripe.png" width=400 height=400>
+<img src="./src/assets/images/test-checkout-processing-stripe.png" width=400 height=400>
+<img src="./src/assets/images/test-checkout-success-stripe.png" width=400 height=400>
 
