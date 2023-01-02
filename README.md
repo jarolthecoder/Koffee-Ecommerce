@@ -8,6 +8,9 @@ The products are also sorted by category to make it easier for users to find wha
 
 Live web application: <a href="https://dazzling-piroshki-f56cb2.netlify.app/">Click Here</a></p>
 
+## My Experience
+I wanted to challenge myself and try building something more advanced, so I decided to take on the task of building a full ecommerce website. It was a challenging project, but I enjoyed the process of learning and developing my skills as a web developer. The end result was a fully functional ecommerce site that is able to sell products and process transactions online. It was a rewarding experience and I am proud of the end result.
+
 ## Functionalities
 <ul>
     <li><strong>Connects to mock products API:</strong> The project is connected to a mock API that provides a list of products for the user to browse and purchase.</li>
@@ -18,7 +21,7 @@ Live web application: <a href="https://dazzling-piroshki-f56cb2.netlify.app/">Cl
     <li><strong>Stripe Mock Checkout:</strong> User is able to successfully complete test payment transaction.</li>
 </ul>
 
-### Disclaimer
+## Disclaimer
 <p>** DO NOT USE PERSONAL INFORMATION ON THE CHECKOUT PORTAL **</p>
 <p>FOR CHECKOUT TEST USE:</p>
 <ul>
@@ -28,6 +31,3 @@ Live web application: <a href="https://dazzling-piroshki-f56cb2.netlify.app/">Cl
 
 <p><strong>Example:</strong></p>
 <img src="./src/assets/images/test-checkout-stripe.png">
-
-## My Experience
-I wanted to challenge myself and try building something more advanced, so I decided to take on the task of building a full ecommerce website. It was a challenging project, but I enjoyed the process of learning and developing my skills as a web developer. The end result was a fully functional ecommerce site that is able to sell products and process transactions online. It was a rewarding experience and I am proud of the end result.
