@@ -31,7 +31,7 @@ I wanted to challenge myself and try building something more advanced, so I deci
 - Mock API
 
 
-## Stripe Checkut flow
+## Stripe Checkout flow
 <p>** DO NOT USE PERSONAL INFORMATION ON THE CHECKOUT PORTAL **</p>
 <p>FOR CHECKOUT TEST USE:</p>
 <ul>
@@ -40,7 +40,8 @@ I wanted to challenge myself and try building something more advanced, so I deci
 </ul>
 
 <p><strong>Example:</strong></p>
-<img src="./src/assets/images/test-checkout-stripe.png" width=600 height=400>
-<img src="./src/assets/images/test-checkout-processing-stripe.png" width=600 height=400>
-<img src="./src/assets/images/test-checkout-success-stripe.png" width=600 height=400>
+<p align="center"><img src="./src/assets/images/test-checkout-success-cart.png" width=600 height=400></p>
+<p align="center"><img src="./src/assets/images/test-checkout-stripe.png" width=600 height=400></p>
+<p align="center"><img src="./src/assets/images/test-checkout-processing-stripe.png" width=600 height=400></p>
+<p align="center"><img src="./src/assets/images/test-checkout-success-stripe.png" width=600 height=400></p>
 
