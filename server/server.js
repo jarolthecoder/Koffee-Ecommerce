@@ -16,7 +16,7 @@ app.post('/checkout', async (req, res, next) => {
 					mode: 'payment',
 					line_items: req.body.items.map((item) => ({
 						price_data: {
-							currency: 'eur',
+							currency: 'usd',
 							product_data: {
 								name: item.name,
 								images: [item.image.regular]
