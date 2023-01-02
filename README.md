@@ -40,7 +40,7 @@ I wanted to challenge myself and try building something more advanced, so I deci
 </ul>
 
 <p><strong>Example:</strong></p>
-<p align="center"><img src="./src/assets/images/test-checkout-success-cart.png" width=600 height=400></p>
+<p align="center"><img src="./src/assets/images/test-checkout-cart-stripe.png" width=600 height=400></p>
 <p align="center"><img src="./src/assets/images/test-checkout-stripe.png" width=600 height=400></p>
 <p align="center"><img src="./src/assets/images/test-checkout-processing-stripe.png" width=600 height=400></p>
 <p align="center"><img src="./src/assets/images/test-checkout-success-stripe.png" width=600 height=400></p>
