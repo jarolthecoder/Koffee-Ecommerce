@@ -1,6 +1,4 @@
-import { outputAst } from '@angular/compiler';
-import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import { Router } from '@angular/router';
+import { Component, OnInit, Input } from '@angular/core';
 import { SharedService } from '../../services/shared.service';
 
 @Component({

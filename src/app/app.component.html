@@ -1,16 +1,12 @@
 <main id="main-page-content">
-    <!-- Smooth Scroll Container-->
-    <div data-scroll>
-		<!-- Header -->
-		<app-header [headerView]="headerView" ></app-header>
-    	<!-- Main Content -->
-      	<router-outlet ></router-outlet>
-		<!-- CTA -->
-    	<app-cta-block></app-cta-block>
-		<!-- Footer -->
-		<app-footer></app-footer>
-		
-    </div>
+	<!-- Header -->
+	<app-header [headerView]="headerView"></app-header>
+	<!-- Main Content -->
+	<router-outlet ></router-outlet>
+	<!-- CTA -->
+	<app-cta-block></app-cta-block>
+	<!-- Footer -->
+	<app-footer></app-footer>
 	<!-- Cart Window -->
 	<div id="cart-container"  [ngClass]="{'cart-active': this.cart.cartActive}">
 		<app-cart></app-cart>

@@ -1,6 +1,5 @@
-import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
-import { faShoppingBag } from '@fortawesome/free-solid-svg-icons';
-import { faUser } from '@fortawesome/free-solid-svg-icons';
+import { Component, Input, OnInit} from '@angular/core';
+import { faShoppingBag, faUser } from '@fortawesome/free-solid-svg-icons';
 import { CartService } from 'src/app/shop/services/cart.service';
 import { ShopService } from 'src/app/shop/services/shop.service';
 import { SharedService } from '../services/shared.service';
@@ -20,7 +19,7 @@ export class HeaderComponent implements OnInit {
   @Input() headerView!: boolean;
   
   constructor(
-    private shared: SharedService, 
+    public shared: SharedService, 
     public shop: ShopService, 
     public cart: CartService) { 
   }

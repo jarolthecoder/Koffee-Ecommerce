@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
-import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
+import { faChevronRight, faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-home',

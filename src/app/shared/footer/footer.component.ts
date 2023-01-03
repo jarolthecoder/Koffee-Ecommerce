@@ -1,8 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { faFacebookF} from '@fortawesome/free-brands-svg-icons';
-import { faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faTiktok } from '@fortawesome/free-brands-svg-icons';
-import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { 
+  faFacebookF, 
+  faInstagram,
+  faTiktok,
+  faTwitter
+} from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-footer',

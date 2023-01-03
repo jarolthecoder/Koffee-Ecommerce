@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
 import { DrinksItem } from '../../interfaces/Drinks';
 import { MainService } from '../../services/main.service';
 

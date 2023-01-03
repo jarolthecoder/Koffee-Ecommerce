@@ -1,8 +1,5 @@
-import { Component, OnInit, ViewChild, AfterViewInit } from '@angular/core';
-import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
-import { filter, Subscription } from 'rxjs';
-import { SharedService } from './shared/services/shared.service';
-import { ViewProductComponent } from './shop/pages/view-product/view-product.component';
+import { Component } from '@angular/core';
+import {NavigationEnd, Router } from '@angular/router';
 import { CartService } from './shop/services/cart.service';
 import { ShopService } from './shop/services/shop.service';
 

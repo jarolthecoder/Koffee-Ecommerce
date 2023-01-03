@@ -5,7 +5,7 @@
 	width: 100%;
 	height: auto;
 	z-index: 3;
-	padding: 1rem 0 1rem 0;
+	padding: 1rem 0 0 0;
 }
 
 #top-navbar {
@@ -85,6 +85,7 @@
 
 .nav-toggle .bar.nav-dark {
   background: var(--clr-dark);
+
 }
 
 /* Mobile Navigation ========================================================== */
