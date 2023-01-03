@@ -23,7 +23,6 @@ export class SliderComponent implements OnInit {
         const coffe = data.filter(item => item.type === 'Espresso' || item.type === 'Filter');
         this.products = coffe;
         this.products.splice(0, 3);
-        console.log(coffe);
       })
   }
 

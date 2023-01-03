@@ -38,7 +38,9 @@ export class CartComponent implements OnInit {
       let stripe = await loadStripe('pk_test_51MLDvqD85DBZk3ca65FnykIMQ7VjtsBNvnrK0MFqf3el3yDlqLqoAJUhQH7JQYTie2r3MgYsbsNsbbthq7KnpRVI00vibB8bgT');
       stripe?.redirectToCheckout({
         sessionId: res.id
-      })
+      });
+      this.cartProducts = [];
+      localStorage.clear();
     })
   }
 
