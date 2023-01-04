@@ -32,7 +32,7 @@ I wanted to challenge myself and try building something more advanced, so I deci
 
 
 ## Stripe Checkout flow
-<p>** CHECKOUT PAYMENT WILL NOT PROCESS IF PERSONAL CREDITCARD NUMBER INFORMATION IS USED  **</p>
+<p>** CHECKOUT PORTAL IS ON TEST MODE, PAYMENT WILL NOT PROCESS IF PERSONAL CREDITCARD NUMBER INFORMATION IS USED  **</p>
 <p>FOR CHECKOUT USE:</p>
 <ul>
     <li><strong>Email:</strong> test@example.com</li>
