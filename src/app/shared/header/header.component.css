@@ -6,6 +6,7 @@
 	height: auto;
 	z-index: 3;
 	padding: 1rem 0 0 0;
+	overflow: hidden;
 }
 
 #top-navbar {
