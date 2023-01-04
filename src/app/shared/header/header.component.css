@@ -6,7 +6,11 @@
 	height: auto;
 	z-index: 3;
 	padding: 1rem 0 0 0;
-	overflow: hidden;
+	overflow-x: hidden;
+}
+
+#main-header.nav-active {
+	height: 100vh;
 }
 
 #top-navbar {

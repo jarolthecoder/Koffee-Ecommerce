@@ -9,6 +9,7 @@ export class SharedService {
   constructor() { }
 
   toggleNav() {
+    const topHeader = document.querySelector('#main-header') as HTMLElement;
     const mobileNav = document.querySelector('#mobile-navbar') as HTMLElement;
     const toggleBar = document.querySelectorAll('.bar');
     const navigation = document.querySelector('.navigation-mobile') as HTMLElement;
@@ -18,6 +19,7 @@ export class SharedService {
 
     if(!this.navActive) {
       this.navActive = true;
+      topHeader.classList.toggle('nav-active');
       mobileNav.classList.toggle('nav-active');
       navigation.classList.add('fade-up')
 			contactNav.classList.add('fade-up');
@@ -29,6 +31,9 @@ export class SharedService {
       
 		} else {
       this.navActive = false;
+      setTimeout(()=> {
+        topHeader.classList.remove('nav-active')
+      }, 500);
 			mobileNav.classList.remove('nav-active');
       navigation.classList.remove('fade-up');
       contactNav.classList.remove('fade-up');
