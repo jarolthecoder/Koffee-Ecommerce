@@ -1,4 +1,4 @@
-# Koffee - Angular E-commerce Web App with Stripe Integration
+# Koffee - Angular E-commerce Web App with Stripe
 
 ## About the project
 This project connects to a mock products API that I have built to retrieve a list of products. The user can browse through the various products and add them to their cart. The cart items are saved in the local storage so that they remain even after the user closes the browser. The cart has a functional feature where users can add or delete items from their cart. The checkout process is seamlessly integrated with <a href="https://stripe.com">Stripe</a>. The Stripe integration is built using node.js and express.js, providing a powerful and scalable backend platform for the ecommerce site.
