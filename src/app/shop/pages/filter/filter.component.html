@@ -1,9 +1,9 @@
-<div class="products-grid animate__animated animate__fadeIn animate__delay-1s animate__faster">
+<section class="products-grid animate__animated animate__fadeIn animate__delay-1s animate__faster">
     <div class="product-card" *ngFor="let item of products">
         <figure>
             <img src="{{ item.image.regular }}" routerLink="/shop/product/{{item.id}}" alt="">
             <figcaption class="product-add-btn">
-                <button (click)="this.cart.addProduct(item)">
+                <button type="button" (click)="this.cart.addProduct(item)">
                     <span>Quick Add</span>
                     <fa-icon [icon]="faShoppingBag" class="fa-icon"></fa-icon>
                 </button>
@@ -15,4 +15,4 @@
             <p class="product-type text-dark">{{ item.type }}</p>
         </div>
     </div>
-</div>
+</section>
