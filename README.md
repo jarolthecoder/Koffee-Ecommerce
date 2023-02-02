@@ -10,7 +10,7 @@ To improve performance, the project implements lazy loading for certain componen
 The header style is also changed based on the current URL route. This allows for a better user experience as the header adjusts to the current page the user is on.
 The products are also sorted by category to make it easier for users to find what they are looking for.<br>
 
-Live web application: <a href="https://dazzling-piroshki-f56cb2.netlify.app/">Click Here</a></p>
+Live web application: <a href="https://koffeeshop.netlify.app/">Click Here</a></p>
 
 ## Project Functionalities
 <ul>

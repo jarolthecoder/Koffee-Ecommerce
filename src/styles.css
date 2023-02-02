@@ -43,7 +43,7 @@ body {
 	position: relative;
 	font-family: var(--ff-body);
 	letter-spacing: 1.3px;
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 main {
@@ -291,6 +291,7 @@ p {
     background:#0406078b;
     transition: opacity ease 0.3s, 
                 z-index ease 0.5s;
+		overflow-x: hidden;
 }
 
 #cart-container.cart-active {
