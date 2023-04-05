@@ -47,9 +47,12 @@ export class CartService {
     if(!this.cartActive) {
       this.cartActive = true
       document.body.classList.add('no-scroll');
+      document.body.style.position = 'fixed';
+      document.body.style.width = '100%';
     } else {
       this.cartActive = false
       document.body.classList.remove('no-scroll');
+      document.body.style.position = 'static';
     }
   }
 }
