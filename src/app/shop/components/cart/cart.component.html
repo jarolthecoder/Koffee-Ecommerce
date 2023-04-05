@@ -1,45 +1,47 @@
-<div class="cart-wrapper" [ngClass]="{'cart-active': this.cart.cartActive}">
-    <div class="cart-header">
-        <h2 class="text-dark">My Cart</h2>
-        <button class="close-btn" (click)="this.cart.toggleCart()">
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </button>
-    </div>
-    <div class="cart-list">
-        <div class="empty-msg" *ngIf="cartProducts.length === 0;">
-            <h3>Your Cart Is Empty</h3>
+<div id="cart-container"  [ngClass]="{'cart-active': this.cart.cartActive}">
+    <div class="cart-wrapper" [ngClass]="{'cart-active': this.cart.cartActive}">
+        <div class="cart-header">
+            <h2 class="text-dark">My Cart</h2>
+            <button class="close-btn" (click)="this.cart.toggleCart()">
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
         </div>
-        <div class="item-card" *ngFor="let item of cartProducts">
-            <div class="item-info">
-                <figure class="img-wrapper" routerLink="/shop/product/{{item.id}}" (click)="this.cart.toggleCart()">
-                    <img src="{{ item.image.regular }}" alt="" class="item-img">
-                    <figcaption class="item-details">
-                        <h3>{{ item.name }}</h3>
-                        <p>{{ item.type }}</p>
-                        <p class="text-accent price">{{ item.price | currency }}</p>
-                    </figcaption>
-                </figure>
-                <div class="btn-container">
-                     <button class="remove-btn" (click)="this.cart.removeItem(item)">
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                    </button>
-                    <div class="quantity-container">
-                        <span class="counter-title">QTY</span>
-                        <span class="counter-display">{{ item.quantity }}</span>
+        <div class="cart-list">
+            <div class="empty-msg" *ngIf="cartProducts.length === 0;">
+                <h3>Your Cart Is Empty</h3>
+            </div>
+            <div class="item-card" *ngFor="let item of cartProducts">
+                <div class="item-info">
+                    <figure class="img-wrapper" routerLink="/shop/product/{{item.id}}" (click)="this.cart.toggleCart()">
+                        <img src="{{ item.image.regular }}" alt="" class="item-img">
+                        <figcaption class="item-details">
+                            <h3>{{ item.name }}</h3>
+                            <p>{{ item.type }}</p>
+                            <p class="text-accent price">{{ item.price | currency }}</p>
+                        </figcaption>
+                    </figure>
+                    <div class="btn-container">
+                        <button class="remove-btn" (click)="this.cart.removeItem(item)">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </button>
+                        <div class="quantity-container">
+                            <span class="counter-title">QTY</span>
+                            <span class="counter-display">{{ item.quantity }}</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="cart-subtotal">
-        <div class="subtotal-info">
-            <h3>Subtotal</h3>
-            <p class="subtotal">{{ this.getTotal() | currency: 'USD' }}</p>
+        <div class="cart-subtotal">
+            <div class="subtotal-info">
+                <h3>Subtotal</h3>
+                <p class="subtotal">{{ this.getTotal() | currency: 'USD' }}</p>
+            </div>
+            <button class="btn cta-btn" (click)="onCheckout()">
+                Checkout
+            </button>
         </div>
-        <button class="btn cta-btn" (click)="onCheckout()">
-            Checkout
-        </button>
     </div>
 </div>

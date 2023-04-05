@@ -280,7 +280,7 @@ p {
 }
 
 /* CART */
-#cart-container {
+/* #cart-container {
     position: fixed;
     top: 0;
     right: 0;
@@ -297,7 +297,7 @@ p {
 #cart-container.cart-active {
     opacity: 1;
     z-index: 6;
-}
+} */
 
 .no-scroll {
     overflow-y: hidden;
