@@ -9,6 +9,8 @@ app.use(bodyparser.json());
 app.use(cors({ origin: true, credentials: true }));
 
 const stripe = require('stripe')('sk_test_51MLDvqD85DBZk3caDAEyWBkTi3Zmn5lk0ZiZPJ0bjvnZFSntR7tPg4NdNodpMY49RERGeUaRzhXqCJ9grgpQ5OWn00TJQpgoVY');
+const successUrl = "https://koffeeshop.netlify.app/success.html";
+const cancelUrl = "https://koffeeshop.netlify.app/cancel.html";
 
 app.post('/checkout', async (req, res, next) => {
 	try {
@@ -25,8 +27,8 @@ app.post('/checkout', async (req, res, next) => {
 						},
 						quantity: 1,
 					})),
-						success_url: 'http://localhost:4242/success.html',
-						cancel_url: 'http://localhost:4242/cancel.html',
+						success_url: successUrl,
+						cancel_url: cancelUrl,
 			});
 			res.status(200).json(session);
 	} catch (error) {
